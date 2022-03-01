@@ -16,7 +16,7 @@ const UserSchema = new mongoose.Schema({
     required: true,
   },
   dateToExpire: {
-    type: String,
+    type: Number,
     required: true,
   },
 })
